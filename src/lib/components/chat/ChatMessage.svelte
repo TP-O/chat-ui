@@ -120,7 +120,7 @@
 			{message.content.trim()}
 		</div>
 		{#if !loading}
-			<div class="absolute right-0 top-3.5 flex gap-2 lg:-right-2">
+			<div class="absolute right-0 -top-2.5 flex gap-2 lg:-right-2">
 				{#if downloadLink}
 					<a
 						class="rounded-lg border border-gray-100 p-1 text-xs text-gray-400 group-hover:block hover:text-gray-500 dark:border-gray-800 dark:text-gray-400 dark:hover:text-gray-300 md:hidden"
